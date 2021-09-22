@@ -1,0 +1,5 @@
+{% for person in persons %}
+    {% if person.Age >20 %}
+        {{ person.name }} {{ person.Age }}
+    {% endif %}
+{% endfor %}
